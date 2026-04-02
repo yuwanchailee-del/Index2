@@ -1,3 +1,4 @@
 function sayHello() {
-    alert("I love You So Much!");
+    alert("I Love You So Much!");
+    document.getElementById("imageContainer").style.display = "block";
 }

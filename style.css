@@ -13,4 +13,15 @@ button {
     background-color: blue;
     color: white;
     border: none;
+}#imageContainer {
+    display: none;
+    text-align: center;
+}
+
+#imageContainer img {
+    width: 150px;      /* all images same width */
+    height: 150px;     /* all images same height */
+    object-fit: cover; /* crops to fit if image ratio differs */
+    margin: 5px;
+    border-radius: 10px; /* optional for rounded corners */
 }
